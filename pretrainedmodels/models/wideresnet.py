@@ -5,6 +5,7 @@ import hickle as hkl
 import torch
 import torch.nn.functional as F
 from torch.autograd import Variable
+import torch.nn as nn
 
 __all__ = ['wideresnet50']
 
